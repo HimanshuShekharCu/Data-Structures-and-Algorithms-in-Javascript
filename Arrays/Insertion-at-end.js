@@ -1,6 +1,7 @@
 let arr = [1, 2, 3, 4, 5],
   element = 90;
 function insertAtIndex(arr, index, element) {
+  debugger;
   for (let i = arr.length - 1; i >= index; i--) {
     arr[i + 1] = arr[i];
     arr[i] = element;
